@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    app:cardCornerRadius="12dp"
+    android:padding="0dp"
+    android:id="@+id/card"
+   >
+
+
+
+
+       <RelativeLayout
+           android:layout_marginStart="0dp"
+           android:layout_marginEnd="0dp"
+           android:layout_marginBottom="0dp"
+           android:paddingTop="15dp"
+           android:paddingBottom="15dp"
+           android:paddingEnd="10dp"
+           android:paddingStart="15dp"
+           android:layout_width="match_parent"
+           android:background="@drawable/smallcarinfobg"
+           android:layout_height="wrap_content">
+
+
+           <ImageButton
+               android:id="@+id/more"
+               android:layout_width="30dp"
+               android:layout_height="20dp"
+               android:scaleType="centerCrop"
+               android:tint="@color/third"
+               android:background="@android:color/transparent"
+               android:src="@drawable/ic_baseline_more_vert_24"
+               android:layout_alignParentEnd="true"
+               android:layout_marginEnd="0dp"
+               />
+
+
+
+
+
+
+
+           <TextView
+               android:id="@+id/value"
+               android:layout_width="match_parent"
+               android:layout_marginStart="0dp"
+               android:layout_marginEnd="30dp"
+               android:layout_marginBottom="4dp"
+               android:layout_height="wrap_content"
+               android:text=""
+               android:textColor="@color/third"
+               android:textSize="16sp"
+               />
+<!--               android:drawablePadding="5dp"-->
+<!--               app:drawableTint="#fff"-->
+<!--               app:drawableStartCompat="@drawable/ic_baseline_info_24" />-->
+
+
+           <LinearLayout
+               android:id="@+id/linear"
+               android:layout_below="@id/value"
+               android:layout_marginTop="10dp"
+               android:gravity="center_horizontal"
+               android:layout_marginBottom="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <LinearLayout
+                   android:gravity="center_vertical"
+                   android:layout_weight="1"
+                   android:orientation="horizontal"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content">
+                   <ImageView
+                       android:id="@+id/icon"
+                       android:layout_width="20dp"
+                       android:layout_height="20dp"
+                       android:src="@drawable/benzin_new_icon"
+                        />
+
+                   <TextView
+                       android:textAlignment="center"
+                       android:id="@+id/type"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Benzin"
+                       android:layout_marginStart="8dp"
+                       android:textColor="@color/third"
+                       android:textSize="14sp"
+                       />
+               </LinearLayout>
+
+               <LinearLayout
+                   android:gravity="center_vertical"
+                   android:layout_weight="1"
+                   android:orientation="horizontal"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content">
+                   <ImageView
+                       android:id="@+id/icon2"
+                       android:layout_width="20dp"
+                       android:layout_height="20dp"
+                       android:src="@drawable/date_new_icon"
+                        />
+
+                   <TextView
+                       android:textAlignment="center"
+                       android:id="@+id/sene"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/sene"
+                       android:layout_marginStart="8dp"
+                       android:textColor="@color/third"
+                       android:textSize="14sp"
+                        />
+               </LinearLayout>
+
+
+               <LinearLayout
+                   android:gravity="center_vertical"
+                   android:layout_weight="1"
+                   android:orientation="horizontal"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content">
+                   <ImageView
+                       android:id="@+id/icon3"
+                       android:layout_width="20dp"
+                       android:layout_height="20dp"
+                       android:src="@drawable/speed_new_icon" />
+
+
+                   <TextView
+                       android:textAlignment="center"
+                       android:id="@+id/km"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/km"
+                       android:singleLine="true"
+                       android:textColor="@color/third"
+                       android:layout_marginStart="8dp"
+                       android:textSize="14sp"
+                        />
+               </LinearLayout>
+
+           </LinearLayout>
+
+        <ImageView
+            android:id="@+id/gapdal"
+            android:visibility="gone"
+            android:layout_width="15dp"
+            android:layout_height="150dp"
+           />
+
+
+
+
+
+
+
+
+       </RelativeLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

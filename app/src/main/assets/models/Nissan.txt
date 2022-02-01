@@ -1,0 +1,47 @@
+200SX
+240SX
+280ZX
+300ZX
+350Z
+350Z Roadster
+370Z
+Almera
+Altima
+Armada
+Bluebird
+Canter
+Cefiro
+Civilian
+Cube
+Datsun/Nissan Z-car
+Frontier
+GT-R
+JUKE
+Kicks
+Leaf
+Maxima
+Murano
+NV1500
+NV2500
+NV3500
+NX
+Navara
+Pathfinder
+PAthfinder Armada
+Patrol
+Primera
+Qashqai
+Quest
+Roque
+Sentra
+Stanza
+Sunny
+Teana
+Terrano
+Tilida
+Titan
+Urban
+Versa
+X-Trail
+Xterra
+cube

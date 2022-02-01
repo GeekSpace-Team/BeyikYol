@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activity.Car.SendCar">
+
+
+    <com.skyfishjy.library.RippleBackground
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/content"
+        app:rb_color="@color/sender"
+        app:rb_radius="32dp"
+        app:rb_rippleAmount="4"
+        app:rb_duration="3000"
+        app:rb_scale="6">
+
+        <RelativeLayout
+            android:id="@+id/peersView"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_height="400dp">
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:padding="6dp"
+            android:background="@drawable/tegelek"
+            android:backgroundTint="@color/sender"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:scaleType="centerCrop"
+                app:riv_corner_radius="50dp"
+                android:id="@+id/centerImage"
+                android:src="@drawable/sender"/>
+
+
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/foundDevice"
+            android:layout_marginBottom="32dp"
+            android:visibility="gone"
+            android:layout_marginRight="6dp"
+            android:src="@drawable/ic_baseline_phonelink_ring_24"
+            app:tint="@color/founded_device" />
+
+
+
+
+
+
+
+    </com.skyfishjy.library.RippleBackground>
+
+
+
+</RelativeLayout>

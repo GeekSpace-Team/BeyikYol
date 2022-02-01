@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:focusable="true"
+    android:paddingTop="12dp"
+    android:focusableInTouchMode="true"
+    tools:context=".Activity.Car.Ewakuator">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/garage_toolbar" />
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_margin="12dp"
+        android:background="@drawable/e_bg"
+        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:drawablePadding="10dp"
+        android:drawableTint="#000"
+        android:hint="@string/g_zleg"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/empty"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/empty_folder"
+            />
+        <TextView
+            android:id="@+id/empty_tv"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/maglumatlar_bazasy_bo"
+            android:textSize="16sp"
+            android:textColor="@color/fourth"
+            />
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/phone_numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search"
+        android:layout_marginTop="12dp" />
+</RelativeLayout>

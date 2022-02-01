@@ -1,0 +1,35 @@
+323
+6
+626
+929
+B-Series
+B-Series Plus
+B2000
+B2500
+B2600
+CX-5
+CX-7
+CX-9
+Familia
+GLC
+MAZDA6
+MPV
+MX-3
+MX-5
+MX-6
+Mazda2
+Mazda3
+Mazda5
+Mazda6
+Mazda6 5-Door
+Mazda6 Sport
+MazdaSpeed3
+MazdaSpeed6
+Miata MX-5
+Millenia
+Navajo
+Protege
+Protage5
+RX-7
+RX-8
+Tribute

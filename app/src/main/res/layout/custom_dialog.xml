@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_centerInParent="true"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true">
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="260dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/smallcarinfobg"
+            >
+
+            <ImageView
+                android:id="@+id/status"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ripple_four"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/t1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="88dp"
+                android:text="Uh oh"
+                android:visibility="gone"
+                android:textColor="#4CAF50"
+                android:textSize="15sp"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/t2"
+                android:layout_below="@id/status"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:text="Title of Dialog"
+                android:textColor="@color/third"
+                android:textSize="16sp"
+                />
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:id="@+id/back"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/save_btn"
+                android:text="Okey..."
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

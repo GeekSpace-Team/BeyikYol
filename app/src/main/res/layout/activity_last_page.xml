@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitebgofpages"
+    tools:context=".Activity.App.LastPage">
+
+    <ScrollView
+        android:layout_above="@+id/bot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="100dp"
+            android:layout_height="wrap_content">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/img_1"
+                android:layout_width="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:text="@string/olu_yzy_rahatlygyny_du_u"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#1F57D0"
+                />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/thrid_desq"
+                android:textAlignment="center"
+                android:layout_marginStart="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                />
+
+            <Button
+                android:id="@+id/bashla"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:text="@string/ba_lat"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_bg"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginBottom="100dp"
+                android:onClick="bashlat"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/bot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+
+</RelativeLayout>

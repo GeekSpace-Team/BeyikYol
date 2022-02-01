@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".Activity.App.Sazlamalar">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="12dp"
+            android:src="@drawable/backtohome"
+            android:background="@android:color/transparent"
+            />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sazlama"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginStart="12dp"
+            android:textColor="@color/fourth"
+            />
+    </LinearLayout>
+
+
+
+
+    <RelativeLayout
+        android:padding="12dp"
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/first_image"
+            android:layout_width="24dp"
+            android:src="@drawable/lang_icon"
+            android:layout_centerVertical="true"
+            android:layout_height="24dp"
+           />
+
+        <TextView
+            android:id="@+id/tel"
+            android:layout_toEndOf="@id/first_image"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/third"
+            android:text="Dili saýla"
+            android:layout_marginStart="20dp"
+            />
+
+
+         <Spinner
+             android:id="@+id/lang"
+             android:layout_width="165dp"
+             android:background="@android:color/transparent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentEnd="true"
+             android:layout_centerVertical="true"
+             android:layout_marginEnd="0dp"
+             />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:padding="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/second_image"
+            android:layout_width="24dp"
+            android:src="@drawable/remind_icon"
+            android:layout_centerVertical="true"
+            android:layout_height="24dp"
+             />
+
+        <TextView
+            android:id="@+id/value2"
+            android:layout_toEndOf="@id/second_image"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/third"
+            android:text="Ýatlatmalar:"
+            android:layout_marginStart="20dp"
+            />
+
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/push"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12dp"
+            app:track="@drawable/thumb"
+            android:thumb="@drawable/thumb2"
+            android:checked="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:padding="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/third_image"
+            android:layout_width="24dp"
+            android:src="@drawable/version_icon"
+            android:layout_centerVertical="true"
+            android:layout_height="24dp"
+             />
+
+        <TextView
+            android:id="@+id/value3"
+            android:layout_toEndOf="@id/third_image"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/third"
+            android:text="Wersiýasy:"
+            android:layout_marginStart="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/version_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12dp"
+            android:text="1.0"
+            android:textSize="16sp"
+            android:textColor="@color/fourth"
+            />
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/terms"
+        android:padding="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/fourth_image"
+            android:layout_width="24dp"
+            android:src="@drawable/terms_icon"
+            android:layout_centerVertical="true"
+            android:layout_height="24dp"
+             />
+
+        <TextView
+            android:id="@+id/value4"
+            android:layout_toEndOf="@id/fourth_image"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/third"
+            android:text="Peýdalanmak şertleri"
+            android:layout_marginStart="20dp"
+            />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+            app:tint="@color/fourth" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/about"
+        android:padding="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/fifth_image"
+            android:layout_width="24dp"
+            android:src="@drawable/about_icon"
+            android:layout_centerVertical="true"
+            android:layout_height="24dp"
+            />
+
+        <TextView
+            android:id="@+id/value5"
+            android:layout_toEndOf="@id/fifth_image"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/third"
+            android:text="Biz barada"
+            android:layout_marginStart="20dp"
+            />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+            app:tint="@color/fourth"
+            />
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/feedback"
+        android:padding="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/sixth_image"
+            android:layout_width="24dp"
+            android:src="@drawable/rate_icon"
+            android:layout_centerVertical="true"
+            android:layout_height="24dp"
+            />
+
+        <TextView
+            android:id="@+id/value6"
+            android:layout_toEndOf="@id/sixth_image"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/third"
+            android:text="Bahalandyrmak"
+            android:layout_marginStart="20dp"
+            />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+            app:tint="@color/fourth"
+            />
+
+
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

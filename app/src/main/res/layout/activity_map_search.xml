@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1E1E"
+    tools:context=".Activity.Map.MapSearch">
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/searchEdit"
+            android:drawableStart="@drawable/ic_baseline_search_24"
+            android:drawableTint="#C8C8C8"
+            android:padding="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/bordered"
+            android:layout_width="0dp"
+            android:hint="@string/search"
+            android:textColorHint="#7E7E7E"
+            android:drawablePadding="5dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            tools:targetApi="m" />
+        <TextView
+            android:id="@+id/cancel"
+            android:textColor="#0C73C5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/cancel"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="12dp"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_below="@id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</RelativeLayout>

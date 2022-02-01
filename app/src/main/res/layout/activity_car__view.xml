@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:paddingTop="12dp"
+    tools:context=".Activity.Car.Car_View">
+
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/share"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:id="@+id/back_btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/backtohome" />
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:singleLine="true"
+                android:text="@string/ulag_maglumaty"
+                android:textColor="@color/fourth"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <ImageButton
+            android:id="@+id/settings"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/carbon_settings_adjust" />
+
+        <ImageButton
+            android:id="@+id/share"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@id/settings"
+            android:background="@android:color/transparent"
+            android:padding="15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/share"
+            android:tint="@color/fourth" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/car_image"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/unnamed"
+                app:riv_corner_radius="12dp" />
+
+            <TextView
+                android:id="@+id/car_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/ulag_maglumaty"
+                android:textColor="@color/third"
+                android:textSize="20sp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:paddingStart="20dp">
+
+                    <TextView
+                        android:id="@+id/marka"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_weight="1"
+                        android:text="@string/marka"
+                        android:textColor="@color/fourth"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/marka_vl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginStart="30dp"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="@color/third"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="20dp">
+
+                    <TextView
+                        android:id="@+id/model"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_weight="1"
+                        android:text="@string/model"
+                        android:textColor="@color/fourth"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/model_vl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginStart="30dp"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="@color/third"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="20dp">
+
+                    <TextView
+                        android:id="@+id/type"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_weight="1"
+                        android:text="@string/type"
+                        android:textColor="@color/fourth"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/type_vl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginStart="30dp"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="@color/third"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="20dp">
+
+                    <TextView
+                        android:id="@+id/transmission"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_weight="1"
+                        android:text="@string/transmission"
+                        android:textColor="@color/fourth"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/transmission_vl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginStart="30dp"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="@color/third"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="20dp">
+
+                    <TextView
+                        android:id="@+id/engine_type"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_weight="1"
+                        android:text="@string/engine_type"
+                        android:textColor="@color/fourth"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/engine_type_vl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginStart="30dp"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="@color/third"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="20dp">
+
+                    <TextView
+                        android:id="@+id/engine_power"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_weight="1"
+                        android:text="@string/engine_power"
+                        android:textColor="@color/fourth"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/engine_power_vl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginStart="30dp"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="@color/third"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="20dp">
+
+                    <TextView
+                        android:id="@+id/year"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_weight="1"
+                        android:text="@string/year"
+                        android:textColor="@color/fourth"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/year_vl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginStart="30dp"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="@color/third"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="20dp">
+
+                    <TextView
+                        android:id="@+id/miles"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_weight="1"
+                        android:text="@string/km_miles"
+                        android:textColor="@color/fourth"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/miles_vl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginStart="30dp"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="@color/third"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="20dp">
+
+                    <TextView
+                        android:id="@+id/vin"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_weight="1"
+                        android:text="@string/vin"
+                        android:textColor="@color/fourth"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/vin_vl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginStart="30dp"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="@color/third"
+                        android:textSize="16sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="150dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="20dp">
+
+                    <TextView
+                        android:id="@+id/phone_number"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_weight="1"
+                        android:text="@string/phone_number"
+                        android:textColor="@color/fourth"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/phone_number_vl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:layout_marginStart="30dp"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="@color/third"
+                        android:textSize="16sp" />
+
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/remont_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="gotoRemont"
+        android:visibility="gone"
+        android:layout_above="@id/update_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center_vertical">
+
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/rounded_layout"
+            android:padding="8dp"
+            android:elevation="2dp"
+            android:onClick="gotoRemont"
+            android:backgroundTint="@color/second"
+            android:text="@string/remont"
+            android:textColor="@color/first"
+            android:textSize="14sp" />
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:elevation="2dp"
+            android:onClick="gotoRemont"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/second"
+            android:padding="16dp"
+            android:src="@drawable/ripple_three" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/update_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/benzin_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:visibility="gone"
+        android:onClick="gotoUpdate"
+        android:layout_marginBottom="12dp"
+        android:gravity="center_vertical">
+
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:elevation="2dp"
+            android:text="@string/calyshmyk"
+            android:background="@drawable/rounded_layout"
+            android:padding="8dp"
+            android:onClick="gotoUpdate"
+            android:backgroundTint="@color/second"
+            android:textColor="@color/first"
+            android:textSize="14sp" />
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="4dp"
+            android:elevation="2dp"
+            android:onClick="gotoUpdate"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/second"
+            android:padding="16dp"
+            android:src="@drawable/ripple_two" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/benzin_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fab"
+        android:visibility="gone"
+        android:onClick="gotoBenzin"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center_vertical">
+
+
+        <TextView
+            android:id="@+id/t3"
+            android:onClick="gotoBenzin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:layout_marginEnd="15dp"
+            android:text="@string/benzin"
+            android:background="@drawable/rounded_layout"
+            android:padding="8dp"
+            android:backgroundTint="@color/second"
+            android:textColor="@color/first"
+            android:textSize="14sp" />
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="gotoBenzin"
+            android:elevation="2dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/second"
+            android:padding="16dp"
+            android:src="@drawable/ripple_one" />
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/first"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/fab_add" />
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/material_design_android_floating_action_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="1dp"
+        android:visibility="gone"
+        fab:menu_animationDelayPerItem="55"
+        fab:menu_backgroundColor="@android:color/transparent"
+        fab:menu_buttonSpacing="0dp"
+        fab:menu_colorNormal="@color/first"
+        fab:menu_colorPressed="@color/first"
+        fab:menu_colorRipple="#fff"
+        fab:menu_fab_size="normal"
+        fab:menu_icon="@drawable/fab_add"
+        fab:menu_labels_colorNormal="@color/second"
+        fab:menu_labels_colorPressed="@color/second"
+        fab:menu_labels_colorRipple="#fff"
+        fab:menu_labels_cornerRadius="3dp"
+        fab:menu_labels_ellipsize="none"
+        fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+        fab:menu_labels_margin="0dp"
+        fab:menu_labels_maxLines="-1"
+        fab:menu_labels_padding="8dp"
+        fab:menu_labels_position="left"
+        fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+        fab:menu_labels_showShadow="false"
+        fab:menu_labels_singleLine="false"
+        fab:menu_labels_textColor="@color/first"
+        fab:menu_labels_textSize="15sp"
+        fab:menu_openDirection="up"
+        fab:menu_shadowColor="@android:color/transparent"
+        fab:menu_shadowRadius="4dp"
+        fab:menu_shadowXOffset="1dp"
+        fab:menu_shadowYOffset="4dp"
+        fab:menu_showShadow="true">
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/material_design_floating_action_menu_item2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layerType="none"
+            android:src="@drawable/ripple_three"
+            app:fab_shadowColor="@android:color/transparent"
+            app:fab_size="mini"
+            fab:fab_colorNormal="@color/second"
+            fab:fab_label="@string/remont" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/material_design_floating_action_menu_item3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layerType="none"
+            android:padding="10dp"
+            android:src="@drawable/ripple_two"
+            app:fab_shadowColor="@android:color/transparent"
+            app:fab_size="mini"
+            fab:fab_colorNormal="@color/second"
+            fab:fab_label="@string/calyshmyk" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/material_design_floating_action_menu_item4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layerType="none"
+            android:src="@drawable/ripple_one"
+            app:fab_shadowColor="@android:color/transparent"
+            app:fab_size="mini"
+            fab:fab_colorNormal="@color/second"
+            fab:fab_label="@string/benzin" />
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+</RelativeLayout>

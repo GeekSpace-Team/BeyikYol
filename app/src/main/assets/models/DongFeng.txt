@@ -1,0 +1,45 @@
+370
+580
+A30
+A60
+A9
+AX3
+AX4
+AX5
+AX7
+Bus
+C31/C32
+C37
+CM7
+Captain
+Dollicar
+E70
+Glory 330
+Glory 360
+H30 CROSS
+Joyear LV
+Joyear X3
+Joyear X5
+Joyear XL
+Joyear XV
+K01S/K02S
+KC
+KL
+KR
+KX
+L60
+M3
+M5
+M600
+MX6
+Realing
+Rich
+S30
+S50
+S500
+SX6
+Special Truck
+Succe
+T5
+U-Vane
+V3

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Dobropojalowat">Wellcome!!!</string>
+    <string name="selectedlanguage">Choose Language</string>
+    <string name="Gir">"Next "</string>
+    <string name="api_key">AIzaSyC7NJDnU4FDL59Ckj0YUN8pLWmY5E72614</string>
+    <string name="skip_btn">Skip</string>
+    <string name="language">English</string>
+    <string name="search">Type the address</string>
+
+    <string name="first_header">First time in Turkmenistan!</string>
+    <string name="second_header">Benefits of use</string>
+    <string name="thrid_header">Have a good journey!</string>
+
+
+    <string name="first_desq">Define the location using map, build route with time indication, account car expenses and many useful functions offered for car owners in one "Beýik Ýol" mobile application!</string>
+    <string name="second_desq">Features of this mobile application, in the minimalism of design, which is reflected in its performance, as well as a simplified interface, which makes it easy for car owners to use. A distinctive parameter is ability to operate mobile application without Internet.</string>
+    <string name="thrid_desq">“Beýik Ýol” – Your reliable guide!</string>
+    <string name="karta">Map</string>
+    <string name="ulagja">Garage</string>
+    <string name="sazlama">Settings</string>
+    <string name="ewakuator">Evacuator</string>
+    <string name="ol_hadysalary">Traffic Jam</string>
+    <string name="ykdajylar">Costs</string>
+    <string name="skip">Finish</string>
+    <string name="ilkinji">First</string>
+    <string name="ikinji">Second</string>
+    <string name="inji">Third</string>
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="settings">Settings</string>
+    <string name="menzile_tarap_rahat_oly_sa_la">Choose a comfortable way to your destination</string>
+    <string name="my_cars">Garage</string>
+    <string name="meni_ulaglarym">My Cars</string>
+    <string name="pa_la">Share</string>
+    <string name="pozmak">Delete</string>
+    <string name="car_info">Car Info</string>
+    <string name="benzin">Fuel</string>
+    <string name="calyshmyk">Change</string>
+    <string name="remont">Repair</string>
+    <string name="ulag_markasy">Vehicle brand</string>
+    <string name="markasyny_sa_la">Choose your brand:</string>
+    <string name="modelini_sa_la">Select model:</string>
+    <string name="g_rn_ini_sa_la">Select an option:</string>
+    <string name="motory_g_rn_i">Engine type:</string>
+    <string name="motory_g_wr_mi">Engine Power:</string>
+    <string name="korobkany_sa_la">Select Transmission</string>
+    <string name="ulag_ylyny_sa_la">Select vehicle year:</string>
+    <string name="win_kod">Vin Code (17 character):</string>
+    <string name="e_esini_telefony">Owner\'s phone</string>
+    <string name="atda_saklat">Save</string>
+    <string name="surat_go_mak">&#160;&#160;&#160;&#160;&#160;Add image</string>
+    <string name="e_esini_telefon_belgisi">Owner\'s phone number</string>
+    <string name="error1">Select a brand</string>
+    <string name="error2">Select a model</string>
+    <string name="error3">Select a type</string>
+    <string name="error4">Select the year</string>
+    <string name="error5">Select the engine type</string>
+    <string name="error6">Select the engine power</string>
+    <string name="error7">Select transmission</string>
+    <string name="error8">Enter the way you went</string>
+    <string name="error9">Enter the vin code</string>
+    <string name="error10">Enter the phone number</string>
+    <string name="error_title">Enter the details in full !!!</string>
+    <string name="error_title2">Something went wrong !!!</string>
+    <string name="error_title3">Try again !!!</string>
+    <string name="howwa">OK</string>
+    <string name="ok">Cancel</string>
+    <string name="attention">Attention!</string>
+    <string name="sorag">Do you really want to delete?</string>
+    <string name="maglumatlar_bazasy_bo">The database is empty</string>
+    <string name="ga_tadan">Retry</string>
+    <string name="ulag_maglumaty">Car information</string>
+    <string name="model">Model:</string>
+    <string name="type">Type:</string>
+    <string name="transmission">TRANSMISSION:</string>
+    <string name="engine_type">Engine type:</string>
+    <string name="engine_power">Engine Power:</string>
+    <string name="year">Year:</string>
+    <string name="km_miles">Km/Miles:</string>
+    <string name="vin">Vin:</string>
+    <string name="phone_number">Phone number:</string>
+    <string name="marka">Brand:</string>
+    <string name="gu_ulan_benzini_m_beri_litr">Volume (in liters)</string>
+    <string name="ge_ilen_oly_girizi">Path in KM</string>
+    <string name="litre_error">Enter the amount of gasoline poured</string>
+    <string name="succes">Successfully registered !!!</string>
+    <string name="budilnik">Remind</string>
+    <string name="motor_filtre">&#160;&#160;&#160;&#160;Motor Filter</string>
+    <string name="motor_yag">&#160;&#160;&#160;&#160;Engine oil</string>
+    <string name="korobka_yag_we_filtr">&#160;&#160;&#160;&#160;Transmission oil and filter</string>
+    <string name="howa_filtr">&#160;&#160;&#160;&#160;Air filter</string>
+    <string name="salon_filtr">&#160;&#160;&#160;&#160;Filter salon</string>
+    <string name="frion">&#160;&#160;&#160;&#160;Freon</string>
+
+    <string name="motor_filtre2">Motor Filter</string>
+    <string name="motor_yag2">Engine oil</string>
+    <string name="korobka_yag_we_filtr2">Transmission oil and filter</string>
+    <string name="howa_filtr2">Air filter</string>
+    <string name="salon_filtr2">Filter salon</string>
+    <string name="frion2">Freon</string>
+
+
+    <string name="ene_n_e_km_den_aly_a_yz">Next change in KM</string>
+    <string name="warning">Enter how many more miles you change !!!</string>
+    <string name="warning1">Enter more details about the repair !!!</string>
+    <string name="sene">Date:</string>
+    <string name="km">Enter KM range</string>
+    <string name="item1">All</string>
+    <string name="item2">This week</string>
+    <string name="item3">This month</string>
+    <string name="item4">Last month</string>
+    <string name="item5">Lats week</string>
+    <string name="item6">This year</string>
+    <string name="item7">Last Year</string>
+    <string name="item8">Last</string>
+    <string name="must">It was time to change</string>
+    <string name="must1">You\'re too late !!!</string>
+    <string name="understod">Understand</string>
+    <string name="bad">Cancel</string>
+    <string name="ulaglarym_barada">About my cars</string>
+    <string name="biz_barada">About Us</string>
+    <string name="surat_bosh">Select a picture</string>
+    <string name="g_zleg">Search...</string>
+    <string name="yldyz_go">Add Star</string>
+    <string name="yldyz_go1">Very Bad</string>
+    <string name="yldyz_go2">More and more</string>
+    <string name="yldyz_go3">Continue like this</string>
+    <string name="yldyz_go4">Good</string>
+    <string name="yldyz_go5">Very Good!!!</string>
+    <string name="ulag_go_mak">Add Car</string>
+    <string name="ulag_u">Update Car</string>
+    <string name="pe_dalanmak_ertleri">Terms and Conditions</string>
+    <string name="bizi_yldyzlar_bilen_golda">Support us with stars !!!</string>
+    <string name="app_name">Beýik Ýol</string>
+    <string name="running">Application is running...</string>
+    <string name="title_activity_routing_map">Map</string>
+    <string name="select">What type do you choose?</string>
+    <string name="from_my">From where I stand</string>
+    <string name="two_lo">The distance between the two points</string>
+    <string name="loading">Loading...</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="start_position">Start point</string>
+    <string name="end_position">End point</string>
+    <string name="points">Enter the dots by clicking on the map !!!</string>
+    <string name="olu_yzy_rahatlygyny_du_u">Feel the peace of your way !!!</string>
+    <string name="ba_lat">Start</string>
+    <string name="ge_en_kilometrini_girizi">Enter the last mile:</string>
+    <string name="remont_barada_gi_i_le_in_maglumat">Enter more about repairs</string>
+    <string name="deleted">Deleted</string>
+    <string name="not_deleted">Not deleted</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_picture">Click on it to add a picture</string>
+    <string name="route_not_found">Unable to draw route !!!</string>
+    <string name="ugur_yzmak">Draw route</string>
+    <string name="search_title">Search</string>
+    <string name="g_zleg_taryhy">Search history</string>
+    <string name="ugur_g_rkeziji">Make it clear</string>
+    <string name="taze_update">Edit</string>
+    <string name="taze_km">KM:</string>
+    <string name="about_text">"Beýik Ýol" - shows the state of traffic on the roads by determining the congestion of roads in the city of Ashgabat. Any user of our mobile application can receive timely information and plan their route efficiently. One of the important features of our mobile app is the opportunity to request for emergency assistance in case of an emergency situation. This mobile application will be upgraded in its next updates.</string>
+    <string name="terms_title">User Agreement and Terms of Use of the Application</string>
+    <string name="terms_of_use">
+
+This User Agreement (hereinafter referred to as the Agreement) sets out the terms and conditions of use by users of the mobile application Beýik Yol (hereinafter referred to as the Application, App).
+By using the Application, the User confirms that he has read and expressed his full consent to the terms of this Agreement without any modification or withdrawal. If the User does not agree to the terms of this Agreement, then in order to terminate the Agreement with respect to it, the User must immediately stop using the Application, including by visiting it.
+The application is the property of the "Company" and is an information and interactive system on the Internet that contains information accessible to an indefinite number of persons and allows any person to access such information from any place and at any time of their own choice by means of a computer and / or other, including wireless, portable devices (PDAs, telephones for cellular communication networks or other wireless communication networks, etc.) using any technologies, standards and protocols (web, wap, etc.).
+The information provided on the App is intellectual property and is protected by the copyright laws of Turkmenistan. Copying, replication, distribution and other use of information is possible only with the prior written permission of the administration of the Application. For violation of this rule, there is a liability provided for by the legislation of Turkmenistan.
+Application is not responsible for inaccuracies that arise during the dissemination of information, for inaccuracies in the information itself, as well as for delays in the transmission of information or its technical distortion.
+This Agreement is subject to change in whole or in part at any time without any special notice. The new version of the Agreement comes into force from the moment of its publication on the website of the Application.\n\n
+
+1.	Terms of use of materials on the App\n
+1.1 The User of the Network has no right to make changes, publish, transfer to third parties, participate in the sale or assignment, create derivative products or otherwise use, in part or in full, the content of the Application.\n
+1.2 In the case of obtaining permission to copy, distribute, publish or otherwise use the materials of the Application protected by copyright, such copying, distribution, publication or other use is not allowed without notification of the ownership of the copyright or with the change or exclusion of the author\'s name and/or trademark.\n\n
+2.	Terms of posting materials by users of the App\n
+2.1 The User of the Application undertakes not to post on the Application and not to send any materials of the following nature anywhere through/through the Application:\n
+- violating the law, containing threats and insults, discrediting other persons, violating the rights of citizens to privacy or public order, bearing the character of obscenity;\n
+- violating to one degree or another the honor and dignity, rights and legally protected interests of other persons;\n
+- promoting or containing calls to incite religious, racial or ethnic hatred, containing attempts to incite hostility or calls to violence;\n
+– other materials that encourage other persons to engage in illegal behavior that entails criminal, civil and other liability or in any way violates the provisions of the law.\n
+2.2 Any actions of the app user that, in the opinion of the Application administration, restrict or hinder the exercise of the rights of another network user using the Application, are not allowed.\n
+2.3 The App User undertakes not to post on the Application and not to send through/through the Application materials that are advertising any goods or services, without obtaining the prior expressed consent from the administration of the Application.\n
+2.4 The App User undertakes not to use the Application for advertising or otherwise promoting the sale of any goods and services in any form, including, but not limited to, encouraging users to subscribe to another interactive service system that is a competitor of the Application.\n
+2.5 The App User undertakes not to upload, post or otherwise use on the Application any materials protected by intellectual property law (including copyright, trademark law), and other materials protected by law without obtaining the express permission of the owner of the rights to the protected material. At the same time, the burden of proving that the placement of materials on the Application by the user of the network does not violate the copyright, related and other rights of third parties to the posted materials lies with the user of the network.\n
+2.6 The App User agrees that he is solely responsible for the materials posted on the Application, including for the content of such materials, their compliance with legal requirements, for violations of the rights of third parties to the materials posted by the user of the network, and compensates for any damage resulting from such violations, as well as any damage resulting from the download of such materials on the Application.\n
+2.7 When placing any materials in the sections of the Application for public use, the network user automatically provides " Company "(or confirms that the owner of such materials provided " Company») free, permanent, irrevocable, non-exclusive right to use, reproduce, modify, edit, publish, translation and distribution of such materials (in part or in full) on the territory of all countries of the world and / or inclusion of such materials in other works in any form through the use of any media or technologies that are currently known or may be invented in the future, for the entire period of copyright protection provided for by the legislation of Turkmenistan in respect of such materials.\n
+2.8 The App user also authorizes access, viewing, storage or reproduction of such materials to other users of the network for personal use.\n
+2.9 The App User grants the administration of the Application the right to edit, copy, publish and distribute any materials posted by the App User on the Application.\n
+</string>
+    <string name="tiz_wagtdan_go_ular">Comming soon</string>
+    <string name="moyka">Car wash</string>
+    <string name="awto_shaylar">Auto parts</string>
+    <string name="ulag_maglumaty_yzy_ngo_u">Add your vehicle information</string>
+    <string name="baglan_ar">Loading...</string>
+    <string name="error_weather">Error!</string>
+    <string name="emty_cost">No costs were found</string>
+    <string name="emty_garage">No vehicles were found</string>
+    <string name="meni_erle_n_erimi_pa_la_mak">Share my location</string>
+    <string name="ugrat">Send</string>
+    <string name="kontaklardan_sa_la">Select from contacts</string>
+    <string name="ugradyljak_telefon_belgisini_girizi">Enter the phone number to send</string>
+    <string name="gps_enable">Turn on GPS!</string>
+    <string name="come">Coming soon!</string>
+    <string name="ulag_gosh_cykdayjy">Enter your car information first!</string>
+    <string name="goshmak">Add</string>
+    <string name="erle_n_erim">My\nLocation</string>
+    <string name="kartadan_sa_lanan">Selected\nlocation</string>
+    <string name="yer_sayla">Select location from map!</string>
+
+
+</resources>

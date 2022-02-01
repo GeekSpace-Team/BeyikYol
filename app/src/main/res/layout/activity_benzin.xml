@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:paddingTop="12dp"
+    tools:context=".Activity.Car.Benzin">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/garage_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/unnamed"
+                app:riv_corner_radius="12dp" />
+
+            <TextView
+                android:id="@+id/car_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Car name"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+
+
+                <LinearLayout
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="35dp"
+                        android:textColor="@color/third"
+                        android:text="@string/gu_ulan_benzini_m_beri_litr"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/litre"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="15dp"
+                        android:textColor="@color/third"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/smallcarinfobg"
+                        android:inputType="numberSigned"
+                        android:padding="10dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/t2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/third"
+                        android:text="@string/ge_ilen_oly_girizi"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/km"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/third"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/smallcarinfobg"
+                        android:inputType="numberSigned"
+                        android:padding="10dp"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/ok_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginBottom="35dp"
+                        android:background="@drawable/save_btn"
+                        android:text="@string/atda_saklat"
+                        android:textAllCaps="false"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

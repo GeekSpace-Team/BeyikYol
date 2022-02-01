@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#1E1E1E"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/searchEdit"
+            android:drawableStart="@drawable/ic_baseline_search_24"
+            android:drawableTint="#C8C8C8"
+            android:padding="15dp"
+            android:inputType="text"
+            android:imeOptions="actionSearch"
+            android:layout_weight="1"
+            android:background="@drawable/bordered"
+            android:layout_width="0dp"
+            android:hint="@string/search"
+            android:textColorHint="#7E7E7E"
+            android:textColor="#fff"
+            android:singleLine="true"
+            android:drawablePadding="5dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+          />
+        <TextView
+            android:id="@+id/cancel"
+            android:textColor="#0C73C5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/cancel"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="12dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab"
+        android:layout_below="@id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:text="@string/search_title"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:background="@drawable/corner_white"
+            />
+
+        <Button
+            android:id="@+id/history"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:text="@string/g_zleg_taryhy"
+            android:textAllCaps="false"
+            android:textColor="#656565"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:background="@drawable/corner_gray"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_below="@id/tab"
+        android:layout_marginBottom="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/no_search"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/no_search_result"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        />
+
+
+
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:visibility="gone"
+        android:id="@+id/loading"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/loading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        />
+
+
+
+</RelativeLayout>

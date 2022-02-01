@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Activity.Map.MapActivity">
+    <com.yandex.mapkit.mapview.MapView
+        android:id="@+id/mapview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:apiKey="@string/api_key"
+        />
+
+
+    <ImageButton
+        android:id="@+id/close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginStart="12dp"
+        android:padding="3dp"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/ic_baseline_close_24"
+        android:background="@drawable/darkbg"
+        android:tint="#fff"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/mode"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/ic_baseline_nights_stay_24"
+            android:background="@drawable/darkbg"
+            android:tint="#fff"
+            />
+
+
+        <ImageButton
+            android:id="@+id/camera"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="12dp"
+            android:src="@drawable/ic_baseline_videocam_off_24"
+            android:background="@drawable/darkbg"
+            android:tint="#fff"
+            />
+        <ImageButton
+            android:id="@+id/share_my_location"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/share_my_location"
+            android:background="@drawable/darkbg"
+            android:tint="#fff"
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="120dp"
+        android:paddingTop="12dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:background="@drawable/top_bg"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/distance"
+                />
+
+            <TextView
+                android:id="@+id/distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100km"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_baseline_access_time_24"
+                app:tint="#3F51B5" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100km"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_baseline_traffic_24"
+                app:tint="#009688" />
+
+            <TextView
+                android:id="@+id/traffic_lights"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100km"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <ImageButton
+
+        android:id="@+id/traffic_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/icon_traffic_light_green"
+        android:onClick="onLightClick" />
+
+    <TextView
+        android:id="@+id/traffic_light_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentEnd="true"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/drawFunctionalRoute"
+        android:layout_marginEnd="12dp"
+        android:visibility="gone"
+        android:layout_above="@id/linear"
+        android:layout_marginStart="12dp"
+        app:cardBackgroundColor="#0574CC"
+        app:cardCornerRadius="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/drw_r"
+                />
+
+            <TextView
+                android:layout_marginStart="4dp"
+                android:textStyle="normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ugur_g_rkeziji"
+                android:textSize="17sp"
+                android:textColor="#fff"
+
+                />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/drawRoute"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_above="@id/cardd"
+        android:visibility="gone"
+        app:cardBackgroundColor="#0574CC"
+        app:cardCornerRadius="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/drw_r"
+            />
+
+        <TextView
+            android:layout_marginStart="4dp"
+            android:textStyle="normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ugur_yzmak"
+            android:textSize="17sp"
+            android:textColor="#fff"
+
+            />
+
+
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardd"
+    android:layout_width="match_parent"
+    android:layout_margin="12dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="2dp"
+    android:layout_alignParentBottom="true"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        >
+
+        <ImageButton
+            android:id="@+id/maptype"
+            android:layout_marginEnd="50dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent"
+            android:tint="#0574CC"
+            android:src="@drawable/ic_baseline_search_24"
+            />
+
+
+        <ImageButton
+            android:id="@+id/myLocation"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent"
+            android:tint="#0574CC"
+            android:src="@drawable/ic_baseline_near_me_24"
+            />
+
+        <ImageButton
+            android:id="@+id/routing"
+            android:layout_marginStart="50dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent"
+            android:tint="#0574CC"
+            android:src="@drawable/ic_baseline_directions_24"
+            />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+    <ImageButton
+        android:id="@+id/zoomUp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/white_btn"
+        android:layout_centerInParent="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="12dp"
+        android:tint="#000"
+        android:src="@drawable/ic_baseline_zoom_in_24"
+        /><ImageButton
+        android:id="@+id/zoomDown"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/white_btn"
+        android:layout_below="@id/zoomUp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="12dp"
+        android:tint="#000"
+        android:src="@drawable/ic_baseline_zoom_out_24"
+        />
+
+
+    <com.flipboard.bottomsheet.BottomSheetLayout
+        android:id="@+id/bottomsheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/root"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+    </com.flipboard.bottomsheet.BottomSheetLayout>
+
+
+
+
+</RelativeLayout>

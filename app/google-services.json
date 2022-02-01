@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "833272032923",
+    "project_id": "beyikyol-6f2b6",
+    "storage_bucket": "beyikyol-6f2b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833272032923:android:5334ac03a895830719603e",
+        "android_client_info": {
+          "package_name": "com.geekspace.beyikyol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833272032923-afnguho8n6vk766pp0re02hmimeamci2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBdx5p_AWfwuQuMIhcGkXsWz96v3MtgE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833272032923-afnguho8n6vk766pp0re02hmimeamci2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

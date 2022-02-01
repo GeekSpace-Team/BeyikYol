@@ -1,0 +1,283 @@
+<resources>
+    <string name="app_name">Beýik Ýol</string>
+    <string name="api_key">97058936-8a36-40fd-87f8-2185696a39cd</string>
+    <string name="selectedlanguage">Dil saýla:</string>
+    <string name="Gir">Indiki</string>
+    <string name="Dobropojalowat">Hoş Geldiňiz!!!</string>
+    <string name="skip_btn">Geçir</string>
+    <string name="language">Türkmen</string>
+
+    <string name="search">Salgyny giriziň</string>
+
+
+    <string name="first_header">Türkmenistanda ilkinji gezek!</string>
+    <string name="second_header">Ulanmagyň ýeňillikleri</string>
+    <string name="thrid_header">Ýoluňyz ak bolsun!</string>
+
+
+    <string name="first_desq">Kartany ulanmak arkaly awtoulagyň ýerleşýän ýerini anyklaýan, geçmeli wagtyny hasaplamak bilen ýoluny gurnaýan, awtoulag bilen bagly çykdajylary bellige alýan we awto sürüjiler üçin iň peýdaly funksiýalary hödürleýän ilkinji “Beýik Ýol” ykjam programma üpjünçiligi Siziň hyzmatyňyzda!</string>
+    <string name="second_desq">Bu ykjam programma üpjünçiligiň aýratynlyklary, onuň sada dizaýny bilen bagly bolup özüniň işjeňligi bilen tapawutlanýar we ýönekeý görnüşi bilen awto sürüjilere ulanmakda aňsat ýoluny hödürleýär. Iň uly aýratynlyklaryň biri hem, Internet ulgamyna birikmesiz, awtoulag bilen bagly işleri bu ykjam programma üpjünçiliginde amala aşyryp bolýar.</string>
+    <string name="thrid_desq">“Beýik Ýol” – Siziň ynamdar ýolbelediňiz!</string>
+    <string name="karta">Karta</string>
+    <string name="ulagja">Ulagjaý</string>
+    <string name="sazlama">Sazlamalar</string>
+    <string name="ol_hadysalary">Ýol hadysalary</string>
+    <string name="ewakuator">Ewakuator</string>
+    <string name="ykdajylar">Çykdajylar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="skip">Başla</string>
+    <string name="ilkinji">Ilkinji</string>
+    <string name="ikinji">Ikinji</string>
+    <string name="inji">Üçinji</string>
+    <string name="menzile_tarap_rahat_oly_sa_la">Menzile tarap rahat ýoly saýla</string>
+    <string name="home">Baş Sahypa</string>
+    <string name="about">Barada</string>
+    <string name="settings">Sazlamalar</string>
+    <string name="benzin">Ýangyç</string>
+    <string name="calyshmyk">Çalyşmak</string>
+    <string name="remont">Remont</string>
+    <string name="car_info">Ulag maglumaty</string>
+    <string name="pozmak">Pozmak</string>
+    <string name="pa_la">Paýlaş</string>
+    <string name="meni_ulaglarym">Meniň Ulaglarym</string>
+    <string name="my_cars">Ulagjaý</string>
+    <string name="ulag_markasy">Ulag markasy</string>
+    <string name="markasyny_sa_la">Markasyny saýla:</string>
+    <string name="modelini_sa_la">Modelini saýla:</string>
+    <string name="g_rn_ini_sa_la">Görnüşini saýla:</string>
+    <string name="motory_g_rn_i">Motoryň görnüşi:</string>
+    <string name="motory_g_wr_mi">Motoryň Göwrümi:</string>
+    <string name="korobkany_sa_la">Korobkany saýla:</string>
+    <string name="ulag_ylyny_sa_la">Ulag ýylyny saýlaň:</string>
+    <string name="win_kod">Vin kod (17 simwol):</string>
+    <string name="e_esini_telefony">Eýesiniň telefony</string>
+    <string name="atda_saklat">Ýatda Saklat</string>
+    <string name="surat_go_mak">&#160;&#160;&#160;&#160;&#160;Surat goşmak</string>
+    <string name="e_esini_telefon_belgisi">Eýesiniň telefon belgisi</string>
+
+    <string name="error1">Markany saýlaň</string>
+    <string name="error2">Model saýlaň</string>
+    <string name="error3">Görnüş saýlaň</string>
+    <string name="error4">Ýylyny saýlaň</string>
+    <string name="error5">Motor görnüşini saýlaň</string>
+    <string name="error6">Motor güýjüni saýlaň</string>
+    <string name="error7">Korobgany saýlaň</string>
+    <string name="error8">Geçen ýoluny giriziň</string>
+    <string name="error9">Vin koduny giriziň</string>
+    <string name="error10">Telefon belgini giriziň</string>
+
+    <string name="error_title">Maglumatary doly giriziň!!!</string>
+    <string name="error_title2">Ýalňyşlyk ýüze çykdy!!!</string>
+    <string name="error_title3">Gaýtadan synanşyň!!!</string>
+    <string name="howwa">Hawa</string>
+    <string name="ok">Ýok</string>
+
+
+    <string name="attention">Üns beriň!</string>
+    <string name="sorag">Siz çyndanam pozmak isleýäňizmi?</string>
+    <string name="maglumatlar_bazasy_bo">Maglumatlar bazasy boş</string>
+    <string name="ga_tadan">Gaýtadan</string>
+    <string name="ulag_maglumaty">Ulag maglumaty</string>
+    <string name="model">Model:</string>
+    <string name="type">Görnüşi:</string>
+    <string name="km_miles">Km/Miles:</string>
+    <string name="marka">Marka:</string>
+    <string name="gu_ulan_benzini_m_beri_litr">Möçberi (litrde)</string>
+    <string name="ge_ilen_oly_girizi">Geçen ýoly KM</string>
+
+
+    <string name="litre_error">Guýulan benziniň möçberini giriziň</string>
+
+    <string name="succes">Üstünlükli hasaba alyndy!!!</string>
+    <string name="budilnik">Ýatlatmak</string>
+    <string name="motor_filtre">&#160;&#160;&#160;&#160;Motor Filter</string>
+    <string name="motor_filtre2">Motor Filter</string>
+    <string name="motor_yag">&#160;&#160;&#160;&#160;Motor ýag</string>
+    <string name="motor_yag2">Motor ýag</string>
+    <string name="korobka_yag_we_filtr">&#160;&#160;&#160;&#160;Korobka ýag we filter</string>
+    <string name="korobka_yag_we_filtr2">Korobka ýag we filter</string>
+    <string name="howa_filtr">&#160;&#160;&#160;&#160;Howa filter</string>
+    <string name="howa_filtr2">Howa filter</string>
+    <string name="salon_filtr">&#160;&#160;&#160;&#160;Salon filter</string>
+    <string name="salon_filtr2">Salon filter</string>
+    <string name="ene_n_e_km_den_aly_a_yz">Indiki çalyşmaly KM</string>
+
+    <string name="warning">Ýene näçe km-den çalyşýanyňyzy giriziň!!!</string>
+    <string name="warning1">Remont barada giňişleýin maglumat giriziň!!!</string>
+    <string name="sene">Sene:</string>
+    <string name="km">Häzirki km sany giriziň</string>
+
+
+    <string name="item1">Hemmesi</string>
+    <string name="item2">Şu hepde</string>
+    <string name="item3">Şu aý</string>
+    <string name="item4">Geçen aý</string>
+    <string name="item5">Geçen hepde</string>
+    <string name="item6">Şu ýyl</string>
+    <string name="item7">Geçen ýyl</string>
+    <string name="item8">Iň soňky</string>
+    <string name="must">Çalyşmak wagty boldy</string>
+    <string name="must1">Bellenen wagtyndan gijä galdyňyz!!!</string>
+
+    <string name="understod">Düşnükli</string>
+    <string name="bad">Inkär etmek</string>
+    <string name="ulaglarym_barada">Ulaglarym barada</string>
+    <string name="biz_barada">Biz Barada</string>
+    <string name="surat_bosh">Surat saýlaň</string>
+
+
+    <string-array name="types_en">
+        <item>Automobile</item>
+        <item>Bus</item>
+        <item>Truck</item>
+    </string-array>
+
+    <string-array name="types_tm">
+        <item>Ýeňil ulag</item>
+        <item>Awtobus</item>
+        <item>Ýük ulagy</item>
+    </string-array>
+
+    <string-array name="types_ru">
+        <item>Автомобиль</item>
+        <item>Автобус</item>
+        <item>Грузовик</item>
+    </string-array>
+
+    <string-array name="transmission_en">
+        <item>Mechanical</item>
+        <item>Automatic</item>
+        <item>Tiptronic</item>
+        <item>CVT</item>
+    </string-array>
+
+    <string-array name="transmission_ru">
+        <item>Механический</item>
+        <item>Автоматический</item>
+        <item>Типтроник</item>
+        <item>CVT</item>
+    </string-array>
+
+    <string-array name="transmission_tm">
+        <item>Mehaniki</item>
+        <item>Awtomat</item>
+        <item>Tiptronik</item>
+        <item>CVT</item>
+    </string-array>
+
+    <string name="transmission">Korobka:</string>
+    <string name="engine_type">Motor görnüşi:</string>
+    <string name="engine_power">Motor Kuwwaty:</string>
+    <string name="year">Ýyly:</string>
+    <string name="vin">Vin:</string>
+    <string name="phone_number">Telefon belgisi:</string>
+    <string name="frion">&#160;&#160;&#160;&#160;Freon</string>
+    <string name="frion2">Freon</string>
+    <string name="g_zleg">Gözleg...</string>
+    <string name="yldyz_go">Ýyldyz Goş</string>
+    <string name="yldyz_go1">Gaty Pes</string>
+    <string name="yldyz_go2">Has hem köpüräk</string>
+    <string name="yldyz_go3">Şeýle dowam et</string>
+    <string name="yldyz_go4">Gowy</string>
+    <string name="yldyz_go5">Örän gowy!!!</string>
+    <string name="bizi_yldyzlar_bilen_golda">Bizi ýyldyzlar bilen goldaň!!!</string>
+    <string name="ulag_go_mak">Ulag Goşmak</string>
+    <string name="ulag_u">Ulag Üýtgetmek</string>
+    <string name="pe_dalanmak_ertleri">Peýdalanmak şertleri</string>
+
+    <string name="running">Programma işe göýberildi...</string>
+    <string name="title_activity_routing_map">Karta</string>
+
+
+    <string name="select">Gerek bolan görnüşi saýlaň</string>
+
+    <string name="from_my">Meniň duran ýerimden ýoly hasaplamaly</string>
+    <string name="two_lo">Iki salgynyň (nokadyň) arasyny hasaplamaly</string>
+
+    <string name="loading">Maglumatlar ýüklenýär...</string>
+    <string name="please_wait">Biraz garaşyň...</string>
+
+    <string name="start_position">Başlangyç nokady</string>
+    <string name="end_position">Ahyrky nokady</string>
+
+
+    <string name="points">Kartanyň üstüne basmak arkaly nokatlary giriziň!!!</string>
+    <string name="olu_yzy_rahatlygyny_du_u">Ýoluňyzyň rahatlygyny duýuň!!!</string>
+    <string name="ba_lat">Başlat</string>
+    <string name="ge_en_kilometrini_girizi">Geçen kilometrini giriziň:</string>
+    <string name="remont_barada_gi_i_le_in_maglumat">Remont barada giňişleýin maglumat</string>
+    <string name="deleted">Pozuldy</string>
+    <string name="not_deleted">Pozulmady</string>
+    <string name="cancel">Ret etmek</string>
+    <string name="add_picture">Surat goşmak üçin üstüne basyň</string>
+    <string name="route_not_found">Ugury çyzyp bolmady!!!</string>
+    <string name="ugur_yzmak">Ugur çyzmak</string>
+    <string name="search_title">Gözlemek</string>
+    <string name="g_zleg_taryhy">Gözleg taryhy</string>
+
+    <string name="mapbox_api" translatable="false">pk.eyJ1Ijoic2hhZ2VsZGkiLCJhIjoiY2tsdzZ2cnlqMDB2ZDMybzh5bmpqNmltaiJ9.X4WJV-cLSch7-K3eFsObWA</string>
+    <string name="ugur_g_rkeziji">Aýdyň görkez</string>
+
+    <string name="taze_update">Üýtgetmek</string>
+
+    <string name="taze_km">KM:</string>
+
+    <string name="about_text">
+        "Beyik Ýol" - Aşgabat şäherindäki ýollaryň dyknyşygyny kesgitlemek bilen ýollarda ulaglaryň ýagdaýyny görkezýär. Ykjam programmamyzyň islendik ulanyjysy öz wagtynda maglumat alyp biler we ugurlaryny netijeli meýilleşdirip biler. Bu ykjam programma üpjünçiligimiziň möhüm aýratynlyklaryndan biri, adatdan daşary ýagdaý ýüze çykan halatynda gyssagly kömek soramak mümkinçiligidir. Bu ykjam programma indiki görnüşlerinde täzeden işlenip taýýarlanar.
+    </string>
+
+    <string name="terms_title"> Ulanyjy şertnamasy we programma üpjünçiligini ulanmagyň şertleri</string>
+    <string name="terms_of_use">
+
+Bu Ulanyjy şertnamasy (mundan beýläk Ylalaşyk diýlip atlandyrylýar) ykjam programma ulanyjylary Beyik Ýol (mundan beýläk ykjam programmasy ýa-da programma üpjünçiligi diýlip atlandyrylýar) ulanyjylarynyň ulanmagyň şertlerini we düzgünleri kesgitleýär. “Programma üpjünçiligini” ulanmak bilen, Ulanyjy hiç hili üýtgetme ýa-da yza çekilmezden şu Ylalaşygyň şertlerini okandygyny we onuň düzgünlerine we şertlerine tabyn bolmak barada ylalaşyandygyny tassyklaýar. Ulanyjy şu Ylalaşygyň şertleri bilen razylaşmasa, Ylalaşygy ýatyrmak üçin Ulanyjy haýal etmän bu programma üpjünçiligini ulanmagy bes etmeli.
+Programma üpjünçiligi "Kompaniýanyň" eýeçiligi bolup, internetdäki maglumat we interaktiw ulgam bolup, internetdäki näbelli çäksiz adamlar üçin elýeterli maglumatlary öz içine alýar we islendik adama islendik ýerden we islendik wagt şeýle maglumata islendik tehnologiýany, ülňüleri we protokollary (web, wap we ş.m.) ulanyp, simsiz, göçme enjamlar (öýjükli aragatnaşyk ulgamlary üçin telefonlar ýa-da beýleki simsiz aragatnaşyk torlary we ş.m.) arkaly girmäge mümkinçilik berýär.
+Programma üpjünçiliginde berlen maglumatlar intellektual eýeçilik bolup, Türkmenistanyň awtorlyk hukugy kanunlary bilen goralýar. Maglumatlary göçürmek, köpeltmek, paýlamak we beýleki ulanmak diňe Programma üpjünçiligiň administrasiýasynyň deslapky ýazmaça rugsady bilen mümkindir. Ulanjynyň bu düzgüni bozandygy üçin Türkmenistanyň kanunçylygynda göz öňünde tutulan jogapkärçilik bellenendir.
+Programma üpjünçiligi maglumat ýaýratmak wagtynda ýüze çykýan nätakyklyklar, maglumatlaryň özünde nädogrylyklar, şeýle hem maglumat berişiň gijä galmagy ýa-da tehniki ýoýulmalary üçin jogapkärçilik çekmeýär. Bu Ylalaşyk, doly ýa-da bölekleýin, islendik wagt ýörite habar bermezden üýtgedilip bilner. Şertnamanyň täze görnüşi programma üpjünjiligiň web sahypasynda çap edilen pursadyndan güýje girýär.\n\n
+
+1.	Programma üpjünçiliginde materiallary ulanmagyň şertleri\n
+1.1 Ulgam ulanyjysynyň üýtgetmeleri girizmäge, neşir etmäge, üçünji taraplara geçirmäge, satuwa ýa-da ýeňillik ylalaşyga gatnaşmaga, önümçilik önümlerini döretmäge ýa-da Programma üpjünçiligiň mazmunyny bölekleýin ýa-da doly ulanmaga hukugy ýok.\n
+ 1.2 Awtorlyk hukugy bilen goralýan Programma üpjünçiliň materiallaryny göçürmek, paýlamak, neşir etmek ýa-da başga bir görnüşde ulanmak üçin rugsat alnan bolsa, awtorlyk hukugynyň eýeçiligini duýdurmazdan ýa-da üýtgetmezden ýa-da aýrylmazdan, göçürmek, paýlamak, neşir etmek ýa-da başga ulanmak üçin rugsat berilmeýär. awtoryň ady we / ýa-da söwda belligi.\n
+1.2 Awtorlyk hukugy bilen goralýan Programma üpjünçiliň materiallaryny göçürmek, paýlamak, neşir etmek ýa-da başga bir görnüşde ulanmak üçin rugsat alnan ýagdaýynda, awtorlyk hukugynyň eýeçiligini duýdurmazdan awtoryň adyny we / ýa-da söwda belligini üýtgetmek ýa-da aýyrmak başga birine ulanmak, göçürmek, paýlamak, neşir etmek üçin rugsat berilmeýär.\n
+        \n\n
+2.	Programma üpjünçiligini ulanyjylary tarapyndan materiallary ýerleşdirmegiň şertleri\n
+2.1 Programma üpjünçiligini Ulanyjy, Programma üpjünçiliginde aşakdaky häsiýetli materiallary ýerleşdirmezlige we onuň üsti bilen başga ýerlere ýaýratmazlyga öz üstüne alýar:\n
+ - haýbatlary we kemsitmeleri öz içine alýan kanuny bozmak, beýleki adamlary abraýdan düşürmek, raýatlaryň şahsy durmuş ýa-da jemgyýetçilik tertibine bolan hukuklaryny bozmak;\n
+- beýlekileriň abraýyny we mertebesini, hukuklaryny we kanuny taýdan goralýan bähbitlerini bozmak;\n
+- dini, jyns ýa-da etnik ýigrenji öjükdirmek, duşmançylygy öjükdirmek ýa-da zorluga çagyryş goşmak;\n
+- beýleki adamlary bikanun alyp barmaga iterýän, jenaýat, raýat we beýleki jogapkärçilige çekýän ýa-da kanunyň düzgünlerini bozýan beýleki materiallar.\n
+2.2 Ulgam ulanyjysynyň, Programma üpjünçiliginiň administrasiýasynyň pikirine görä, Programma üpjünçiligini ulanýan başga bir ulgam ulanyjysynyň hukuklarynyň çäklendirilmegine ýa-da päsgel bermegine ýol berilmeýär.\n
+2.3 Ulgam ulanyjy, Programma üpjünçiliginiň administrasiýasyndan deslapky aç-açan razyçylygy almazdan, haýsydyr bir haryt ýa-da hyzmatlary mahabatlandyrýan Programma üpjünçiliginiň materiallaryny / üsti bilen ibermezligi öz üstüne alýar.\n
+2.4 Ulgam ulanyjy, haýsydyr bir görnüşde harytlaryň we hyzmatlaryň mahabatyny ýa-da başga bir görnüşde satylmagyny mahabatlandyrmak ýa-da başga bir görnüşde satmak üçin Programma üpjünçiligini ulanmazlygy öz içine alýar, ýöne ulanyjylary Programma bäsdeşi bolan başga bir onlaýn hyzmatyna ýazylmak bilen çäklenmeýär.\n
+2.5 Ulgam ulanyjy, intellektual eýeçilik kanunlary bilen goralýan islendik materiallary (awtorlyk hukugy, söwda belligi kanuny) we hukuklar eýesiniň aç-açan rugsadyny almazdan, kanun bilen goralýan beýleki materiallary ýüklemezlige, ýerleşdirmezlige ýa-da başgaça ulanmazlygy öz üstüne alýar. Şol bir wagtyň özünde, ulgam ulanyjysy tarapyndan Programma üpjünçiliginde materiallaryň ýerleşdirilmegi, üçünji taraplaryň iberilen materiallara bolan awtorlyk hukugyny, baglanyşykly we beýleki hukuklaryny bozmaýandygyny subut etmek ýüki tor ulanyjysyna degişlidir.\n
+2.6 Ulgam ulanyjy, Programma üpjünçiliginde ýerleşdirilen materiallaryň, şol sanda şeýle materiallaryň mazmuny, kanuny talaplaryň berjaý edilmegi, torda ýerleşdirilen materiallara üçünji taraplaryň hukuklarynyň bozulmagy doly jogapkärdigini kabul edýär we ulanyjy şeýle düzgün bozmalar sebäpli ýüze çykan islendik zyýanyň, şeýle hem şeýle materiallaryň Programma üpjünçiliginde göçürilmeginden dörän zyýanyň öwezini dolýar.\n
+2.7 Islendik material köpçülige ulanmak üçin ýüztutma bölümlerine ýerleşdirilende, häzirki wagtda Türkmenistanyň kanunçylygynda göz öňünde tutulan awtorlyk hukuklaryny goramagyň ähli döwri üçin häzirki wagtda bilinýän ýa-da geljekde oýlanyp tapyljak islendik metbugat ýa-da tehnologiýa görä, ulgam ulanyjysy tölegsiz, hemişelik, yzyna dolanyp bolmajak, aýratyn däl ulanmak, köpeltmek, üýtgetmek, redaktirlemek, neşir etmek, terjime etmek we paýlamak hukugy (bölekleýin ýa-da tutuşlygyna) dünýäniň ähli ýurtlarynda we / ýa-da ulanmak arkaly islendik görnüşde beýleki materiallara ýa-da başga materiallara goşulmak hukugy awtomatiki usulda "Kompaniýa" (ýa-da şeýle materiallaryň eýesiniň "Kompaniýa" üpjün edendigini) tassyklaýar.\n
+2.8 Ulgam ulanyjy, şeýle materiallary beýleki ulgam ulanyjylaryna şahsy bähbit üçin girmäge, görmäge, saklamaga ýa-da köpeltmäge ygtyýar berýär.\n
+2.9 Ulgam ulanyjy, Programma üpüjnçiligiň administrasiýasyna ulgam ulanyjysy tarapyndan ýerleşdirilen materiallary redaktirlemek, göçürmek, neşir etmek we paýlamak hukugyny berýär.\n
+
+    </string>
+    <string name="tiz_wagtdan_go_ular">Ýakyn wagtda</string>
+    <string name="title_feature1" translatable="false">Feature</string>
+    <string name="moyka">Awtoýuwalga</string>
+    <string name="awto_shaylar">Awtoşaýlary</string>
+    <string name="ulag_maglumaty_yzy_ngo_u">Ulag maglumatyňyzy goşuň</string>
+    <string name="baglan_ar">Baglanýar...</string>
+    <string name="error_weather">Baglanmady!</string>
+
+
+    <string name="emty_cost">Hiç hili çykdajy tapylmady</string>
+    <string name="emty_garage">Hiç hili ulag tapylmady</string>
+    <string name="meni_erle_n_erimi_pa_la_mak">Kartada ýerimi paýlaşmak</string>
+    <string name="ugrat">Ugrat</string>
+    <string name="kontaklardan_sa_la">Kontaklardan saýla</string>
+    <string name="ugradyljak_telefon_belgisini_girizi">Ugradyljak telefon belgisini giriziň</string>
+    <string name="gps_enable">GPS-i işdeňleşdir!</string>
+    <string name="come">Ýakyn wagtda!</string>
+    <string name="ulag_gosh_cykdayjy">Ilki bilen ulag maglumatlaryňyzy giriziň!</string>
+    <string name="goshmak">Goşmak</string>
+    <string name="erle_n_erim">Öz duran\nýerim</string>
+    <string name="kartadan_sa_lanan">Saýlan\nýerim</string>
+    <string name="yer_sayla">Kartadan ugradyljak ýeri saýlaň!</string>
+
+
+</resources>

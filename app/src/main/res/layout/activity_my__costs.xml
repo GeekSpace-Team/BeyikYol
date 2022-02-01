@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="12dp"
+    tools:context=".Activity.Car.My_Costs">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/garage_toolbar"/>
+
+   <LinearLayout
+       android:id="@+id/linear"
+       android:layout_below="@id/toolbar"
+       android:layout_width="match_parent"
+       android:gravity="end"
+       android:layout_height="wrap_content">
+       <Spinner
+           android:id="@+id/filtr_1"
+           android:layout_width="150dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:background="@drawable/smallcarinfobg"
+           android:padding="1dp"
+           />
+
+       <Spinner
+           android:id="@+id/filtr_2"
+           android:layout_width="150dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:padding="1dp"
+           android:background="@drawable/smallcarinfobg"
+           />
+   </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ulaglar"
+        android:layout_below="@id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/empty"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/empty_folder"
+            />
+        <TextView
+            android:id="@+id/empty_tv"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/emty_cost"
+            android:textSize="16sp"
+            android:textColor="@color/fourth"
+            />
+
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/ulaglar"
+        android:id="@+id/cars"
+        android:layout_width="match_parent"
+        android:clipToPadding="false"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/carinfo_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_above="@id/remont_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center_vertical">
+
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:elevation="2dp"
+            android:text="@string/car_info"
+            android:background="@drawable/shadow_erctangle"
+            android:padding="8dp"
+            android:backgroundTint="@color/second"
+            android:textColor="@color/first"
+            android:textSize="14sp" />
+
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:elevation="2dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/second"
+            android:padding="16dp"
+            android:src="@drawable/ripple_four" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/remont_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_above="@id/update_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center_vertical">
+
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/shadow_erctangle"
+            android:padding="8dp"
+            android:elevation="2dp"
+            android:backgroundTint="@color/second"
+            android:text="@string/remont"
+            android:textColor="@color/first"
+            android:textSize="14sp" />
+
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:elevation="2dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/second"
+            android:padding="16dp"
+            android:src="@drawable/ripple_three" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/update_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/benzin_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:visibility="gone"
+        android:layout_marginBottom="12dp"
+        android:gravity="center_vertical">
+
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:elevation="2dp"
+            android:text="@string/calyshmyk"
+            android:background="@drawable/shadow_erctangle"
+            android:padding="8dp"
+            android:backgroundTint="@color/second"
+            android:textColor="@color/first"
+            android:textSize="14sp" />
+
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="50dp"
+            android:elevation="2dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/second"
+            android:padding="16dp"
+            android:src="@drawable/ripple_two" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/benzin_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fab"
+        android:visibility="gone"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center_vertical">
+
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:elevation="2dp"
+            android:text="@string/benzin"
+            android:background="@drawable/shadow_erctangle"
+            android:padding="8dp"
+            android:backgroundTint="@color/second"
+            android:textColor="@color/first"
+            android:textSize="14sp" />
+
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/second"
+            android:elevation="2dp"
+            android:padding="16dp"
+            android:src="@drawable/ripple_one" />
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/first"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/fab_add" />
+
+
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:visibility="gone"
+        android:id="@+id/material_design_android_floating_action_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        fab:menu_animationDelayPerItem="55"
+        fab:menu_backgroundColor="@android:color/transparent"
+        fab:menu_buttonSpacing="0dp"
+        fab:menu_colorNormal="@color/colorPrimary"
+        fab:menu_colorPressed="#2E2E2E"
+        fab:menu_colorRipple="#99d4d4d4"
+        fab:menu_fab_size="normal"
+        fab:menu_icon="@drawable/fab_add"
+        fab:menu_labels_colorNormal="@color/colorPrimary"
+        fab:menu_labels_colorPressed="#444"
+        fab:menu_labels_colorRipple="#66efecec"
+        fab:menu_labels_cornerRadius="3dp"
+        fab:menu_labels_ellipsize="none"
+        fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+        fab:menu_labels_margin="0dp"
+        fab:menu_labels_maxLines="-1"
+        fab:menu_labels_padding="8dp"
+        fab:menu_labels_position="left"
+        fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+        fab:menu_labels_showShadow="false"
+        fab:menu_labels_singleLine="false"
+        fab:menu_labels_textColor="#fff"
+        fab:menu_labels_textSize="15sp"
+        fab:menu_openDirection="up"
+        fab:menu_shadowColor="#66aff198"
+        fab:menu_shadowRadius="4dp"
+        fab:menu_shadowXOffset="1dp"
+        fab:menu_shadowYOffset="4dp"
+        fab:menu_showShadow="true">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/material_design_floating_action_menu_item1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="#0C00C2"
+            android:src="@drawable/ic_baseline_info_24"
+            fab:fab_label="@string/car_info"
+            android:layerType="hardware"
+            app:fab_size="mini"
+            />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/material_design_floating_action_menu_item2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="#E80D0D"
+            fab:fab_label="@string/remont"
+            android:layerType="hardware"
+            app:fab_size="mini"
+            />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/material_design_floating_action_menu_item3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="#D8BB01"
+            fab:fab_label="@string/calyshmyk"
+            android:layerType="hardware"
+            app:fab_size="mini"
+            />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/material_design_floating_action_menu_item4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="#00BE06"
+            fab:fab_label="@string/benzin"
+            android:layerType="hardware"
+            app:fab_size="mini"
+            />
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>

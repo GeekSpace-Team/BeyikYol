@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#fff</color>
+    <color name="colorSecondAccent">#000</color>
+    <color name="colorPurple">#BA2CD3</color>
+    <color name="colorWhite">#fff</color>
+    <color name="color2">#6200EE</color>
+    <color name="color3">#03DAC5</color>
+    <color name="colorAccent">#5B78FF</color>
+    <color name="color_pink">#cf4bf8</color>
+    <color name="color_violet">#8813e4</color>
+    <color name="color_blue">#3d99d9</color>
+    <color name="color_green_light">#5ff0f7</color>
+    <color name="lightWhite">#BCB3B3</color>
+    <color name="colorPrimary1">#2196F3</color>
+    <color name="colorPrimaryDark1">#1976D2</color>
+    <color name="colorAccent1">#D81001</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="black">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorOnboardingIndicatorInactive">#5B78FF</color>
+    <color name="colorNextButton">#7D85FF</color>
+    <color name="bluedark">#2f333f</color>
+    <color name="bluelight">#49acd5</color>
+    <color name="green">#028F08</color>
+    <color name="orange">#FFC107</color>
+    <color name="arrow">#0A2196F3</color>
+    <color name="mapTint">#0574CC</color>
+    <color name="blue_transparent">#45028FFF</color>
+
+
+    <color name="solid">#313640</color>
+    <color name="first">#5B78FF</color>
+    <color name="second">#E1E4F4</color>
+    <color name="third">#313640</color>
+    <color name="fourth">#7D7D7D</color>
+
+    <color name="ui_green">#50c878</color>
+    <color name="white">#ffffff</color>
+
+    <color name="sender">#FF7AD3</color>
+    <color name="founded_device">#7528BC</color>
+
+</resources>
