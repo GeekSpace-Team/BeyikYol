@@ -23,10 +23,6 @@ android {
         }
     }
     splits {
-
-
-
-
         // Add this block and enable/disable the parameters as follows
         bundle {
             density {
@@ -70,7 +66,7 @@ android {
         applicationId 'com.geekspace.beyikyol'
         minSdkVersion 21
         targetSdkVersion 31
-        versionCode 8
+        versionCode 9
         versionName "1.0.2"
 
 
